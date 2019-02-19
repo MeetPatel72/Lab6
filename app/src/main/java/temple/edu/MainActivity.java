@@ -1,3 +1,12 @@
+/*
+Name:- Meet A. Patel
+Class:- CIS-3515
+Assignment:- Assignment 4
+Date:- 02/17/2019
+ */
+
+
+
 package temple.edu;
 
 import android.content.Intent;
@@ -49,46 +58,16 @@ public class MainActivity extends AppCompatActivity {
                 view.setBackgroundColor(Color.parseColor("White"));
                 View mainll = findViewById(R.id.first);
                 //mainll.setBackgroundColor(Color.parseColor(color));
-/*
-                if(position == 0){
+
+                if(position == -1){
                     return;
                 }else{
-                    colorIntValue = Color.parseColor(myColor[position]);
-                    //Intent nextIntent = new Intent(MainActivity.this, Main2Activity.class);
-                    //nextIntent.putExtra("newColor", colorIntValue);
-                    //findViewById(R.id.second).setBackgroundColor(Color.parseColor(color));
-                    //onclicks(color);
-                    //startActivity(nextIntent);
-
-
+                    colorIntValue = Color.parseColor(myColor[position]);//convert to int values
+                    //creating new intent
+                    Intent nextIntent = new Intent(MainActivity.this, Main2Activity.class);
+                    nextIntent.putExtra("newColor", colorIntValue);
+                    startActivity(nextIntent);//start the activity
                 }
-                */
-    final Intent intent;
-        switch (position){//at this position change the back color
-            case 1:
-                intent = new Intent(MainActivity.this, Main2Activity.class);
-
-                View y = findViewById(R.id.second);
-                view.setBackgroundColor(Color.parseColor(color));
-                startActivity(intent);
-
-                break;
-            case 2:
-                intent = new Intent(MainActivity.this, Main2Activity.class);
-                View x = findViewById(R.id.second);
-                view.setBackgroundColor(Color.parseColor(color));
-
-                startActivity(intent);
-                break;
-            case 3:
-                intent = new Intent(MainActivity.this, Main2Activity.class);
-                View z = findViewById(R.id.second);
-                view.setBackgroundColor(Color.parseColor(color));
-
-                startActivity(intent);
-                break;
-        }
-
 
             }
 
@@ -101,10 +80,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-    public void onclicks(String color){
-        findViewById(R.id.second).setBackgroundColor(Color.parseColor(color));
 
-    }
 }
 
 

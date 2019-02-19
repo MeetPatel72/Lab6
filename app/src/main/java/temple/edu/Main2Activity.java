@@ -14,9 +14,9 @@ public class Main2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
-      //  Intent i = getIntent();
-      //  int nextColor = i.getIntExtra("newColor", -1);
-      //  RelativeLayout relative = (RelativeLayout) findViewById(R.id.third);
-       // relative.setBackgroundColor(nextColor);
+        Intent i = getIntent(); //get the intent
+        int nextColor = i.getIntExtra("newColor", -1);
+        findViewById(R.id.second).setBackgroundColor(nextColor); //set the background to the color that users picks
+
     }
 }
