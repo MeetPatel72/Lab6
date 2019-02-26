@@ -1,4 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">SpinnerSecondActivityad</string>
+
     <string-array name="myColorList">
         <item> WHITE</item>
         <item> BLUE</item>
@@ -14,19 +17,17 @@
     </string-array>
 
     <string-array name="myColor">
-        <item> WHITE</item>
-        <item> BLUE</item>
-        <item> RED</item>
-        <item> YELLOW</item>
-        <item> CYAN</item>
-        <item> GREEN</item>
-        <item> BLACK</item>
-        <item> GRAY</item>
-        <item>MAGENTA</item>
-        <item> DARKGRAY</item>
-
+        <item>Blanco</item>
+        <item>Azul</item>
+        <item>Rojo</item>
+        <item>samarillo</item>
+        <item>Cian</item>
+        <item> Verde</item>
+        <item> Negro</item>
+        <item> Gris</item>
+        <item>Magenta</item>
+        <item> GrisOscuro</item>
     </string-array>
-    <string name="app_name">SpinnerSecondActivity</string>
 
 
 </resources>
