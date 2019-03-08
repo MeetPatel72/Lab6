@@ -1,11 +1,12 @@
 package temple.edu;
 
+
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.content.Intent;
 import android.widget.RelativeLayout;
 
-
+/*
 
 public class Main2Activity extends AppCompatActivity {
 
@@ -20,3 +21,4 @@ public class Main2Activity extends AppCompatActivity {
 
     }
 }
+*/
