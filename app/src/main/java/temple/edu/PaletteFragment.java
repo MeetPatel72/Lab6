@@ -61,7 +61,7 @@ public class PaletteFragment extends Fragment{
       });
 
       //spinner.setAdapter(new ColorAdapter(getActivity(), andColors, colorNames));
-
+        //
       //spinner.setOnItemClickListener(new AdapterView.OnItemClickListener() {
        //   @Override
         //  public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
